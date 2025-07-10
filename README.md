@@ -85,6 +85,7 @@ pip install -r requirements.txt
 
 
 OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+
 OPENAI_MODEL=gpt-4o
 
 Azure OpenAI Embeddings
