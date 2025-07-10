@@ -74,7 +74,7 @@ Key features:
 
 ### 1️⃣ **Install Requirements**
 
-```bash
+
 pip install -r requirements.txt
 
 ## 🔐 Environment Setup
@@ -84,20 +84,12 @@ Keep these **secure** — never push your real `.env` file to GitHub.
 
 ---
 
-
+---
 
 ### ✅ **1️⃣ Create a `.env` file**
 
-At your project root, create a file named `.env`.  
-Use this template:
 
-```ini
-# .env
-
-# OpenAI API key for general LLM calls
 OPENAI_API_KEY=YOUR_OPENAI_API_KEY
-
-# Your chosen model (e.g., gpt-4o, gpt-3.5-turbo)
 OPENAI_MODEL=gpt-4o
 
 # Azure OpenAI Embeddings
@@ -105,3 +97,9 @@ AZURE_OPENAI_API_KEY=YOUR_AZURE_API_KEY
 AZURE_OPENAI_ENDPOINT=https://YOUR_RESOURCE_NAME.openai.azure.com/
 AZURE_OPENAI_API_VERSION=2023-XX-XX   # replace with your version, e.g., 2023-03-15-preview
 AZURE_OPENAI_EMBEDDING_DEPLOYMENT=YOUR_EMBEDDING_DEPLOYMENT_NAME
+---
+---
+🙌RUN STREAMLIT APP
+
+streamlit run app.py
+---
