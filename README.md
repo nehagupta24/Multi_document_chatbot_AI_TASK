@@ -18,13 +18,21 @@ Key features:
 
 ## 🗂️ Folder Structure
 ├── 📁 docs/ # 📄 Raw uploaded document files (PDF, DOCX, PPTX)
+
 ├── 📁 rag_faiss_store/ # 🗂️ Saved FAISS vector database for semantic search
+
 ├── 📄 app.py # ✅ Streamlit app with real-time streaming responses
+
 ├── 📄 tools.py # ✅ Core helper: run_agent() and tool registrations
+
 ├── 📄 rag_index.py # ✅ Document ingestion, chunking, embeddings, vector store builder
+
 ├── 📄 main_chat.py # 🧪 Local test script for the agent (optional)
+
 ├── 📄 requirements.txt # ✅ Python dependencies
+
 ├── 📄 README.md # 📖 Full project instructions & screenshots
+
 ├── 📄 .env.example # ✅ Sample environment config (no real keys!)
 
 
@@ -75,6 +83,8 @@ This project uses API keys for **Azure OpenAI** and/or **OpenAI API**.
 Keep these **secure** — never push your real `.env` file to GitHub.
 
 ---
+
+
 
 ### ✅ **1️⃣ Create a `.env` file**
 
