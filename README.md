@@ -79,11 +79,6 @@ pip install -r requirements.txt
 
 ## 🔐 Environment Setup
 
-This project uses API keys for **Azure OpenAI** and/or **OpenAI API**.  
-Keep these **secure** — never push your real `.env` file to GitHub.
-
----
-
 ---
 
 ### ✅ **1️⃣ Create a `.env` file**
@@ -92,13 +87,13 @@ Keep these **secure** — never push your real `.env` file to GitHub.
 OPENAI_API_KEY=YOUR_OPENAI_API_KEY
 OPENAI_MODEL=gpt-4o
 
-# Azure OpenAI Embeddings
+Azure OpenAI Embeddings
 AZURE_OPENAI_API_KEY=YOUR_AZURE_API_KEY
 AZURE_OPENAI_ENDPOINT=https://YOUR_RESOURCE_NAME.openai.azure.com/
 AZURE_OPENAI_API_VERSION=2023-XX-XX   # replace with your version, e.g., 2023-03-15-preview
 AZURE_OPENAI_EMBEDDING_DEPLOYMENT=YOUR_EMBEDDING_DEPLOYMENT_NAME
 ---
----
+
 🙌RUN STREAMLIT APP
 
 streamlit run app.py
